@@ -1,8 +1,6 @@
 body {
 	color: #373737;
 	background: #C3C3C3;
-	font-size: 16px;
-	font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 }
@@ -24,11 +22,14 @@ nav a:link, a:visited {
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
-	line-height:50px;
+	line-height:40px;
 }
 nav a:hover, a:active {
 	background-color: #007CFF;
 	height: 100px;
+}
+nav i{
+	
 }
 nav {
 	position: fixed;
@@ -48,4 +49,10 @@ nav .title{
 	padding-left:10px;
 	color:#F0F0F0;
 	
+}
+#home {
+	display:block;
+	background-color:#FF0004;
+	height:inherit;
+	width:100;
 }
