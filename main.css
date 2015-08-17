@@ -1,6 +1,6 @@
 body {
 	color: #373737;
-	background: #00FF8C;
+	background: #C3C3C3;
 	font-size: 16px;
 	font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
@@ -24,6 +24,7 @@ nav a:link, a:visited {
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
+	line-height:50px;
 }
 nav a:hover, a:active {
 	background-color: #007CFF;
@@ -37,6 +38,7 @@ nav {
 	width: 100%;
 	background-color: #008CFF;
 	height: 100px;
+	box-shadow: 0 2px 4px #0C4BE8;
 }
 nav .title{
 	display:table-cell;
@@ -44,6 +46,6 @@ nav .title{
 	line-height:100px;
 	height: 100px;
 	padding-left:10px;
-	color:#FFF;
+	color:#F0F0F0;
 	
 }
