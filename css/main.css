@@ -3,6 +3,7 @@ body {
 	background: #C3C3C3;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
 }
 nav ul {
 	list-style-type: none;
@@ -54,5 +55,6 @@ nav .title{
 	display:block;
 	background-color:#FF0004;
 	height:inherit;
-	width:100;
+	width:70%;
+	text-align:center;
 }
